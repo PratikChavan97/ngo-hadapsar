@@ -4,6 +4,7 @@ function Home() {
   return (
     <div>
       <Navigation />
+      <Link to="dashboard">Go to Dashboard</Link>
     </div>
   );
 }
