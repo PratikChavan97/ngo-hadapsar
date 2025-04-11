@@ -1,0 +1,42 @@
+.error {
+  height: 100vh;
+  width: 100%;
+  background-color: #f5efe0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+.error-content {
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.error-content h1 {
+  font-size: 8rem;
+}
+
+.error-content p {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.error-content button {
+  width: 50%;
+  margin: auto;
+  font-size: 2rem;
+  border: 0;
+  padding: 1rem 2rem;
+  background-color: #cd2653; /* cd2653 */
+  color: #fefbfd;
+  border-radius: 1rem;
+}
+
+.error-content button:hover {
+  background-color: #e0295a;
+}
