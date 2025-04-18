@@ -1,18 +1,35 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Dashboard from "./pages/Dashboard";
-import PageNotFound from "./pages/PageNotFound";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import AdminHome from "./Pages/admin/AdminHome";
+import AppLayout from "./components/AppLayout";
+import Error from "./components/Error";
+import Contact from "./Pages/site/Contact";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="dashboard" element={<Dashboard />} />
-        <Route path="*" element={<PageNotFound />} />
-      </Routes>
-    </BrowserRouter>
-  );
+  const router = createBrowserRouter([
+    {
+      element: <AppLayout />,
+      errorElement: <Error />,
+      children: [
+        {
+          path: "/",
+          element: "Main Content",
+        },
+        {
+          path: "/about",
+          element: "About US",
+        },
+        {
+          path: "/contact",
+          element: <Contact />,
+        },
+      ],
+    },
+    {
+      path: "/admin",
+      element: <AdminHome />,
+    },
+  ]);
+  return <RouterProvider router={router} />;
 }
 
 export default App;

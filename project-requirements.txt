@@ -1,0 +1,32 @@
+Project Name: Sahayog nothing
+
+** Project Requirements:
+
+1] Landing Pages
+    - Attractive layouting and design
+    - Navigation bar for different sections on same page.
+    - A user form to apply for registration
+    - a contact form to enquire and donate.
+
+    UI consists of:
+    - image carousel and text fetched and updated via admin api.
+    - upcoming events blog template
+    - multiple social icons 
+
+2] Admin Dashboard:
+    - total users update, delete and add new users.
+    - approve new users and get payment locally.
+    - update text and images for admin dashboard.
+    - write blogs for upcoming events.
+
+
+**** WEBSITE PAGES *****
+
+1] Header
+    - logo and navigation bar
+
+2] Main sections
+    - above footer, certifications and partners
+
+3] Footer
+    - footer consists of ngo address, social icons, multiple pages related to ngo work
