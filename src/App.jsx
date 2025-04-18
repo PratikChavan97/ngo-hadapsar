@@ -22,6 +22,14 @@ function App() {
           path: "/contact",
           element: <Contact />,
         },
+        {
+          path: "/blog",
+          element: "Blog",
+        },
+        {
+          path: "/work",
+          element: "Our Work",
+        },
       ],
     },
     {

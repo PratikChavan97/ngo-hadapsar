@@ -5,6 +5,7 @@ function TopHeader() {
     <div className="contact-header">
       <span>Email</span>
       <span>Contact</span>
+      <span>Social Icons</span>
     </div>
   );
 }

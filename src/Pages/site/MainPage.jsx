@@ -7,7 +7,8 @@ function MainPage({ children }) {
     <div>
       <TopHeader />
       <Header />
-      {children}
+
+      <div className="child">{children}</div>
 
       <Footer />
     </div>

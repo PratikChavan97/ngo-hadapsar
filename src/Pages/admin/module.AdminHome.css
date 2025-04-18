@@ -1,0 +1,11 @@
+.navigation {
+  height: 100vh;
+  width: 20%;
+  background-color: #66615b;
+}
+
+.display {
+  background-color: #f4f3ef;
+  height: 100vh;
+  width: 80%;
+}

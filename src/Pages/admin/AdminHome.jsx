@@ -1,8 +1,10 @@
+import "./module.AdminHome.css";
+
 function AdminHome() {
   return (
-    <div>
-      <div>Navigation</div>
-      <div>Display</div>
+    <div className="fluid-container d-flex">
+      <div className="navigation">Navigation</div>
+      <div className="display">Display</div>
     </div>
   );
 }
