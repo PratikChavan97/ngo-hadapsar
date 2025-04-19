@@ -9,15 +9,18 @@ Project Name: Sahayog nothing
     - a contact form to enquire and donate.
 
     UI consists of:
-    - image carousel and text fetched and updated via admin api.
-    - upcoming events blog template
-    - multiple social icons 
+    - Header: Logo, Navigation (About, Projects, Donate, Contact), CTA button
+    - Hero Section: Full-width background image + tagline + CTA + Image Carousel
+    - About Us: Brief intro, mission, vision
+    - Projects: Cards with images, titles, descriptions
+    - Impact Statistics: Animated counters (e.g., people helped, funds raised)
+    - Testimonials: Carousel
+    - Call to Action: Big section “Join us” or “Donate now”
+    - Footer: Social links, contact info, newsletter subscription
 
 2] Admin Dashboard:
-    - total users update, delete and add new users.
-    - approve new users and get payment locally.
-    - update text and images for admin dashboard.
-    - write blogs for upcoming events.
+    - Sidebar: Dashboard, Projects, Donations, Users, Settings
+    - Main: Data cards (total donations, active users, new signups), recent donations table, charts (Pie/Line)
 
 
 **** WEBSITE PAGES *****

@@ -1,11 +1,12 @@
-.navigation {
+.dashboard {
+  background-color: #f8fafe;
   height: 100vh;
-  width: 20%;
-  background-color: #66615b;
+  width: 100%;
 }
 
-.display {
-  background-color: #f4f3ef;
+.navigation {
+  background-color: #ffffff;
   height: 100vh;
-  width: 80%;
+  width: 20%;
+  box-shadow: 2px 0 10px 2px rgb(208, 207, 207);
 }
