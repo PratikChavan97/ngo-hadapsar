@@ -1,0 +1,32 @@
+.navigation {
+  height: 100vh;
+  width: min-content;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  box-shadow: 0 0 0.7rem 0 rgb(215, 214, 214);
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+nav a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  width: 100%;
+  color: #9197b3;
+}
+
+nav a:hover {
+  background-color: #5932ea;
+  color: #fff;
+}

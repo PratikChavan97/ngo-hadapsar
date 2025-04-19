@@ -18,6 +18,27 @@ Project Name: Sahayog nothing
     - Call to Action: Big section “Join us” or “Donate now”
     - Footer: Social links, contact info, newsletter subscription
 
+    * Color Pallete:
+    1] Background color:
+        - page background: #0b6051 // header, nav, footer
+        - secondary-color: #fff // main content
+
+    2] text colors:
+        - heading-color: #DFFDFB,
+        - sub-heading-color: #418E7F,
+        - main-content-heading-section: #4f4564,
+        - counter-color: #C3817A
+        - card-heading: #433D4E,
+        - card-subheading: #E7E7E9
+
+    3] button colors:
+        - button color: #Fdd604 // header buttons, join us
+        - secondary-button-color: #F0BD16, // contact, forms
+
+    * Typography: 
+    - Heading fonts: Roboto (all Headings),
+    - text-fonts: Railway (card sub-title), open-sans / Monserrat
+
 2] Admin Dashboard:
     - Sidebar: Dashboard, Projects, Donations, Users, Settings
     - Main: Data cards (total donations, active users, new signups), recent donations table, charts (Pie/Line)

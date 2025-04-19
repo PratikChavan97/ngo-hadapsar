@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import MainPage from "../Pages/site/MainPage";
 
-function AppLayout() {
+function PageLayout() {
   return (
     <>
       <MainPage>
@@ -11,4 +11,4 @@ function AppLayout() {
   );
 }
 
-export default AppLayout;
+export default PageLayout;

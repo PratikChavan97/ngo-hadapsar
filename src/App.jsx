@@ -1,13 +1,13 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import AdminHome from "./Pages/admin/AdminHome";
-import AppLayout from "./components/AppLayout";
+import PageLayout from "./features/PageLayout";
 import Error from "./components/Error";
 import Contact from "./Pages/site/Contact";
+import DashboardLayout from "./features/DashboardLayout";
 
 function App() {
   const router = createBrowserRouter([
     {
-      element: <AppLayout />,
+      element: <PageLayout />,
       errorElement: <Error />,
       children: [
         {
@@ -34,9 +34,10 @@ function App() {
     },
     {
       path: "/admin",
-      element: <AdminHome />,
+      element: <DashboardLayout />,
     },
   ]);
+
   return <RouterProvider router={router} />;
 }
 
