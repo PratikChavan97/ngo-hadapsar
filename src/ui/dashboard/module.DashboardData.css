@@ -1,0 +1,9 @@
+.dashboard-data {
+  height: 100vh;
+  width: 80%;
+  border: 2px solid red;
+}
+
+.data-summary {
+  background-color: #fff;
+}
