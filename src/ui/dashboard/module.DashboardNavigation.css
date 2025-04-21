@@ -24,9 +24,11 @@ nav a {
   text-decoration: none;
   width: 100%;
   color: #9197b3;
+  padding: 0.5rem 0.3rem;
 }
 
 nav a:hover {
   background-color: #5932ea;
   color: #fff;
+  border-radius: 1rem;
 }
