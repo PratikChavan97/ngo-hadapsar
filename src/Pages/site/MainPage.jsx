@@ -1,6 +1,6 @@
 import TopHeader from "../../components/TopHeader";
-import Footer from "../../ui/Footer";
-import Header from "../../ui/Header";
+import Footer from "../../ui/site/Footer";
+import Header from "../../ui/site/Header";
 
 function MainPage({ children }) {
   return (

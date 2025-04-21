@@ -1,10 +1,18 @@
 import { NavLink } from "react-router-dom";
 
+import "./module.Header.css";
+
 function Header() {
   return (
     <div className="header-section">
       <header>
-        <h2>Sahakarya NGO</h2>
+        <NavLink to="/">
+          <img
+            src="src\assets\sahayog-logo.jpg"
+            alt="header-logo"
+            className="logo"
+          />
+        </NavLink>
       </header>
       <nav>
         <NavLink to="/">Home</NavLink>
