@@ -1,3 +1,9 @@
+.header-section,
+header {
+  background-color: #0b6051;
+  color: #fff;
+}
+
 .logo {
   height: 4.8rem;
   aspect-ratio: 5/4;
